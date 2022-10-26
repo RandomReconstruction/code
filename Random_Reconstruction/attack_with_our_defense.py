@@ -17,7 +17,7 @@ import numpy as np
 import util
 import evaluation
 import data_provider as data
-import model.TTH_with_our_defense as tth
+import model.TTH_with_defense as tth
 from common import *
 from loss import l2norm
 from model.model import get_model
