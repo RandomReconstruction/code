@@ -29,6 +29,12 @@ unzip -q "TTH_VisualSearch.zip" -d "${HOME}/VisualSearch/"
 
 Readers need to download Flickr30k dataset and move the image files to `~/VisualSearch/flickr30k/flickr30k-images/`. The Flickr30k is provided by the TTH's Authors: http://shannon.cs.illinois.edu/DenotationGraph/ or Baidu Yun (https://pan.baidu.com/s/1r0RVUwctJsI0iNuVXHQ6kA  提取码：hrf3).
 
+Download the pretrained model. 
+
+```sh
+!wget -nc https://dl.fbaipublicfiles.com/mae/visualize/mae_visualize_vit_large_ganloss.pth
+```
+
 
 
 ## Train defense model
